@@ -1,0 +1,145 @@
+@media screen and (max-width:1000) {
+   .collection{
+    display: none;
+   } 
+}
+
+@media screen and (max-width:1000px) {
+    .main{
+        grid-template-columns: repeat(2, 1fr);
+display: grid;
+object-fit: cover;
+
+    }
+    .collection{
+        display: none;
+    }
+.four{
+    width: auto;
+}
+.four img{
+    width: 300px;
+    height: 300px;
+}
+.navbartop i{
+    display: none;
+}
+.navbartop img{
+    width: 400px;
+    height: 30px;
+    padding-left: 60px;
+
+}
+.photo{
+    padding: 3%;
+}
+.navbar{
+  
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 500px;
+    padding: 15px 60px;
+    font-size: 20px;
+}
+.main2{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.room img{
+    width: 300px;
+}
+.room{
+    padding-left: 60px;
+}
+h1{
+    font-size: 40px;
+}
+.living{
+    margin-top: 500px;
+    padding: 3%;
+}
+.living img{
+    padding-left: 250px;
+
+}
+.living p{
+    font-size: 20px;
+}
+.living button{
+    margin-left: 150px;
+}
+.wood{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    width: 100%;
+    margin-left: 80px;
+}
+.story{
+
+}
+.story img{
+    padding-left: 220px;
+}
+.tree{
+
+}
+.footer{
+    margin-top: 600px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 55%;
+    
+}
+.footer_text{
+    padding-left: 140px;
+width: 100%;
+}
+.footer_text h2{
+padding-left: 80px;
+}
+}
+@media screen and (max-width:670px) {
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .btn{
+        margin-top: 1400px;
+        font-size: 12px;
+    }
+    .main2{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .room {
+    padding-left: 180px;
+    }
+    .four{
+        padding-left: 180px;
+    }
+    .living{
+        margin-top: 1500px;
+    }
+    .living button{
+        margin-left: 100px;
+    }
+    .wood{
+        width: 600px;
+    }
+    .story{
+        padding: 3%;
+        width: 500px;
+        margin-left: 10px;
+    }
+    .tree{
+        padding: 3%;
+        width: 500px;
+        display: block;
+        margin: auto;
+    
+    }
+}

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 700vh;
+}
+.navbartop{
+    width: 100%;
+    height: 80px;
+    background: whitesmoke;
+    justify-content: space-between;
+    position: sticky;
+    top: 1;
+    left: 0;
+
+}
+.dark{
+    width: 100%;
+    height: 40px;
+background: #222;
+}
+.pe{
+    color: #fff;
+    text-align: center;
+}
+.navbartop img{
+    width: 25%;
+    padding-left: 120px;
+    margin-top: 40px;
+}
+.navbartop i{
+    padding-left: 290px;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background: whitesmoke;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+.collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-left: 120px;
+    margin-top: 50px;
+}
+.items{
+background: rgb(246, 79, 79);
+color: #fff;
+padding: 5px;
+
+}
+.photo{
+    width: 100%;
+    padding:  3%;
+}
+
+h1{
+    color: orangered;
+    font-size: 48px;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 60px;
+}
+.four{
+    width: 300px;
+    height: 400px;
+    padding-left: 40px;
+}
+.four img{
+width: 100%;
+height: 300px;
+}
+.four p{
+    padding-left: 70px;
+}
+.btn{
+    padding: 10px 50px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.main2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.room{
+    width: 25%;
+    height: 500px;
+    padding: 3%;
+}
+.room img{
+    width: 100%;
+
+}
+.room h2{
+    margin-top: 20px;
+
+}
+.room a{
+    font-size: 16px;
+    margin-top: 10px;
+    color: orangered;
+}
+.living{
+    width: 100%;
+    height: 700px;
+    background: url(./Lytton-Lifestyle1.webp) no-repeat center/cover;
+    padding: 5%;
+}
+.living img{
+    padding-left: 600px;
+}
+.logo{
+    color: #fff;
+    text-align: center;
+}
+.living p{
+    text-align: center;
+    border: 2px solid #ddd;
+    font-size: 30px;
+ padding: 20px;
+    margin-top: 40px;
+    color: #fff;
+}
+.living button{
+    padding: 10px 70px;
+    margin-top: 30px;
+    margin-left: 500px;
+    background: orangered;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+.wood{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+.story{
+    width: 600PX;
+    height: 600px;
+    background: url(./6177b389ded2cd9319e3f151b1f28895.jpg) no-repeat center/cover;
+    margin: 2%;
+    margin-left: 150px;
+}
+.story h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+.story img{
+    padding-left: 280px;
+    margin-top: 30px;
+}
+.story p{
+    text-align: center;
+    background: #222;
+    padding: 10px 30px;
+    color: #fff;
+}
+.tree{
+    width: 600px;
+    height: 600px;
+    background: url(./images\ \(1\).jfif) no-repeat center/cover;
+    margin: 2%;
+}
+.tree h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px; 
+}
+.tree img{
+    padding-left: 280px;
+    margin-top: 30px;
+}
+.tree p{
+    text-align: center;
+    background: #222;
+    padding: 10px 30px;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background: rgb(43, 32, 32);
+    display: flex;
+}
+.footer_text{
+    width: 500px;
+    height: 600px;
+    color: #fff;
+}
+.footer_text h1{
+    color: #fff;
+    padding-left: 70px;
+}
+.footer_text h2{
+    padding-left: 70px;
+    margin-top: 10px;
+}
+.footer_text p{
+    padding-left: 70px;
+    margin-top: 15px;
+    width: 70%;
+}
+.footer2{
+    width: 100%;
+    height: 500px;
+    background: #f7f4f4;
+    display: flex;
+}
+.foot{
+    width: 400px;
+    height: 500px;
+}
+.foot img{
+    width: 300px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.foot h2{
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.foot2{
+  padding-left: 30px;
+  list-style: none; 
+  line-height: 2; 
+  margin-top: 20px;
+}
+
